@@ -1,0 +1,14 @@
+{
+  "name": "noderest",
+  "description": "Demo REST API with Node",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~4.12.4",
+    "web3": "1.0.0-beta.30",
+    "solc": "0.4.19"
+  },
+  "scripts": {
+    "deploy": "node tasks/deploy.js"
+  }
+}
